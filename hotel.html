@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        .header {
+            background-image: url('https://marketplace.canva.com/EAFTOQT91Mw/1/0/1600w/canva-brown-modern-hotel-presentation-BGsBYCdzvt0.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .promo-table {
+            margin: 20px 0;
+        }
+        .slider img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <h1>Hotel Bliss</h1>
+        <p>Nikmati pengalaman menginap yang memadukan kenyamanan modern dengan suasana tenang di Bliss Hotel. Terletak strategis di jantung kota, Bliss Hotel menawarkan akses mudah ke destinasi wisata, pusat perbelanjaan, dan tempat kuliner terbaik.
+           Setiap kamar didesain dengan elegan, dilengkapi fasilitas lengkap seperti Wi-Fi gratis, TV layar datar, AC, minibar, dan kamar mandi pribadi dengan perlengkapan mandi premium. Hotel ini juga menyediakan berbagai fasilitas, termasuk kolam renang infinity, pusat kebugaran, spa, dan restoran yang menyajikan hidangan lokal serta internasional.Dengan pelayanan ramah dan profesional, Bliss Hotel memastikan pengalaman menginap Anda menjadi istimewa, baik untuk perjalanan bisnis maupun liburan keluarga.</p>
+    </header>
+
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Tentang Kami</a></li>
+        </ol>
+    </nav>
+
+    <!-- Image Slider -->
+    <div id="imageSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner slider">
+            <div class="carousel-item active">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK24ZLoj1UKFeFTbbYhYvAz2orkZExqco20Q&s" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.isp-education.ac.id/wp-content/uploads/2023/06/Hotel2.jpg" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://depokita.com/wp-content/uploads/2019/02/Hotel-di-Depok-The-Margo-Hotel-3.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#imageSlider" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#imageSlider" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Company Description -->
+    <section class="container mt-4">
+        <h2>Tentang Kami</h2>
+        <p>Hotel Bliss menawarkan keramahtamahan yang tak tertandingi dengan komitmen untuk memberikan kenyamanan dan kemudahan bagi setiap tamu. Lokasi premium dan fasilitas modern kami menjadikan kami pilihan utama bagi wisatawan.</p>
+    </section>
+
+    <!-- Branches -->
+    <section class="container mt-4">
+        <h2>Cabang Kami</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzeqvgHc4_Qe0f0ZIJZsp5Ldv7AskK_XT66g&s" class="card-img-top" alt="Branch 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabang 1 - Jakarta</h5>
+                        <p class="card-text">Terletak di jantung kota, Cabang Jakarta kami sempurna untuk bisnis dan liburan.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCFTm1w8ZT71VBd46UQDqljzFVlGXcoiQpAg&s" class="card-img-top" alt="Branch 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabang 2 - Bandung</h5>
+                        <p class="card-text">Nikmati pemandangan pantai dan kehidupan malam yang semarak di lokasi kami di Bandung.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://asset-2.tstatic.net/bogor/foto/bank/images/Pesona-Alam-Resort.jpg" class="card-img-top" alt="Cabang 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Cabang 3 - Bogor</h5>
+                        <p class="card-text">Bersantailah di dataran tinggi Bogor yang sejuk di hotel kami yang nyaman.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotion Table -->
+    <section class="container mt-4">
+        <h2>Promosi</h2>
+        <table class="table table-bordered promo-table">
+            <thead>
+                <tr>
+                    <th>Paket</th>
+                    <th>Harga</th>
+                    <th>Waktu</th>
+                    <th>Syarat dan ketentuan</th>
+                    <th>Deskripsi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Liburan Akhir Pekan</td>
+                    <td>Rp.1.600.000</td>
+                    <td>2 Hari 1 Malam</td>
+                    <td>Pemesanan diperlukan </td>
+                    <td>Termasuk sarapan dan layanan spa</td>
+                </tr>
+                <tr>
+                    <td>Paket Keluarga</td>
+                    <td>Rp.3.500.000</td>
+                    <td>3 Hari 2 Malam</td>
+                    <td>Maksimum 2 orang dewasa, 2 anak-anak</td>
+                    <td>Termasuk tiket gratis ke tempat-tempat wisata terdekat</td>
+                </tr>
+                <tr>
+                    <td>Pelarian Romantis</td>
+                    <td>Rp.2.100.000</td>
+                    <td>3 Hari 2 Malam</td>
+                    <td>Khusus pasangan</td>
+                    <td>Termasuk makan malam dengan cahaya lilin</td>
+                </tr>
+                <tr>
+                    <td>Paket Petualangan</td>
+                    <td>Rp.2.000.000</td>
+                    <td>2 Hari 1 Malam</td>
+                    <td>Minimal 4 orang	</td>
+                    <td>Termasuk aktivitas petualangan di luar ruangan</td>
+                </tr>
+                <tr>
+                    <td>Perpanjangan Masa Tinggal</td>
+                    <td>Rp.8.200.000</td>
+                    <td>7 Hari 6 Malam</td>
+                    <td>Ketersediaan terbatas</td>
+                    <td>Tarif khusus untuk masa menginap jangka panjang</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Hotel Bliss. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
